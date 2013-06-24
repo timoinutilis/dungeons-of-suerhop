@@ -9,8 +9,8 @@ package game.server
 	import game.server.answers.AnswerMap;
 	import game.server.answers.AnswerMapInfos;
 	
-	import inutilib.ArrayUtils;
-	import inutilib.map.MapData;
+	import de.inutilis.inutilib.ArrayUtils;
+	import de.inutilis.inutilib.map.MapData;
 
 	public class OfflineGameServer extends GameServer
 	{

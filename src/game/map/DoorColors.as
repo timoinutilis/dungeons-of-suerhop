@@ -8,7 +8,7 @@ package game.map
 	import game.constants.RawTilesDefs;
 	import game.constants.TilesDefs;
 	
-	import inutilib.map.MapSprite;
+	import de.inutilis.inutilib.map.MapSprite;
 	
 	public class DoorColors extends GameSprite
 	{

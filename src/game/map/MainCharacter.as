@@ -11,9 +11,9 @@ package game.map
 	import game.constants.ObjectsDefs;
 	import game.constants.RawTilesDefs;
 	
-	import inutilib.DisplayUtils;
-	import inutilib.GameTime;
-	import inutilib.media.ImageManager;
+	import de.inutilis.inutilib.DisplayUtils;
+	import de.inutilis.inutilib.GameTime;
+	import de.inutilis.inutilib.media.ImageManager;
 
 	public class MainCharacter extends GameSprite
 	{

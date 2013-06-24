@@ -6,7 +6,7 @@ package game.ui
 	
 	import game.MagicStone;
 	
-	import inutilib.ui.Window;
+	import de.inutilis.inutilib.ui.Window;
 	
 	public class ExpandButtonsWindow extends Window
 	{

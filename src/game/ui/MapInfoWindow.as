@@ -15,12 +15,12 @@ package game.ui
 	import game.MagicStone;
 	import game.value.MapInfo;
 	
-	import inutilib.DisplayUtils;
-	import inutilib.GameTime;
-	import inutilib.media.SoundManager;
-	import inutilib.social.SocialUserManager;
-	import inutilib.ui.PositionRectangle;
-	import inutilib.ui.Window;
+	import de.inutilis.inutilib.DisplayUtils;
+	import de.inutilis.inutilib.GameTime;
+	import de.inutilis.inutilib.media.SoundManager;
+	import de.inutilis.inutilib.social.SocialUserManager;
+	import de.inutilis.inutilib.ui.PositionRectangle;
+	import de.inutilis.inutilib.ui.Window;
 	
 	import mx.resources.ResourceManager;
 	

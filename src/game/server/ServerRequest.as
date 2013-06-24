@@ -27,8 +27,8 @@ package game.server
 	import game.value.Savegame;
 	import game.value.UserInfo;
 	
-	import inutilib.GameTime;
-	import inutilib.MathUtils;
+	import de.inutilis.inutilib.GameTime;
+	import de.inutilis.inutilib.MathUtils;
 
 	public class ServerRequest
 	{

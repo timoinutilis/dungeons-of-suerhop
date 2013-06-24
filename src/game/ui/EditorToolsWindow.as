@@ -10,12 +10,12 @@ package game.ui
 	import game.GameDefs;
 	import game.MagicStone;
 	
-	import inutilib.DisplayUtils;
-	import inutilib.ui.PositionRectangle;
-	import inutilib.ui.RadioButtons;
-	import inutilib.ui.ScrollArea;
-	import inutilib.ui.ToolTips;
-	import inutilib.ui.Window;
+	import de.inutilis.inutilib.DisplayUtils;
+	import de.inutilis.inutilib.ui.PositionRectangle;
+	import de.inutilis.inutilib.ui.RadioButtons;
+	import de.inutilis.inutilib.ui.ScrollArea;
+	import de.inutilis.inutilib.ui.ToolTips;
+	import de.inutilis.inutilib.ui.Window;
 	
 	import mx.resources.IResourceManager;
 	import mx.resources.ResourceManager;

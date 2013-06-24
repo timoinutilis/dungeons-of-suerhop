@@ -7,7 +7,7 @@ package game.map
 	import game.constants.ObjectsDefs;
 	import game.constants.RawTilesDefs;
 	
-	import inutilib.media.SoundManager;
+	import de.inutilis.inutilib.media.SoundManager;
 
 	public class DoorButton extends GameSprite
 	{

@@ -11,10 +11,10 @@ package game.ui
 	import game.GameDefs;
 	import game.MagicStone;
 	
-	import inutilib.DisplayUtils;
-	import inutilib.media.SoundManager;
-	import inutilib.ui.PositionRectangle;
-	import inutilib.ui.Window;
+	import de.inutilis.inutilib.DisplayUtils;
+	import de.inutilis.inutilib.media.SoundManager;
+	import de.inutilis.inutilib.ui.PositionRectangle;
+	import de.inutilis.inutilib.ui.Window;
 	
 	import mx.resources.ResourceManager;
 	

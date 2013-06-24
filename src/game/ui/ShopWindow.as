@@ -13,11 +13,11 @@ package game.ui
 	import game.FileDefs;
 	import game.GameDefs;
 	
-	import inutilib.DisplayUtils;
-	import inutilib.media.ImageManager;
-	import inutilib.media.SoundManager;
-	import inutilib.ui.PositionRectangle;
-	import inutilib.ui.Window;
+	import de.inutilis.inutilib.DisplayUtils;
+	import de.inutilis.inutilib.media.ImageManager;
+	import de.inutilis.inutilib.media.SoundManager;
+	import de.inutilis.inutilib.ui.PositionRectangle;
+	import de.inutilis.inutilib.ui.Window;
 
 	
 	public class ShopWindow extends Window
@@ -306,7 +306,7 @@ import flash.display.Sprite;
 
 import game.GameDefs;
 
-import inutilib.GameTime;
+import de.inutilis.inutilib.GameTime;
 
 
 internal class ShopItem

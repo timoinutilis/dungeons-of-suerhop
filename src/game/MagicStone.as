@@ -17,17 +17,17 @@ package game
 	import game.ui.UserOptionsWindow;
 	import game.value.UserInfo;
 	
-	import inutilib.ArrayUtils;
-	import inutilib.GameKeys;
-	import inutilib.GameTime;
-	import inutilib.UserOptions;
-	import inutilib.debug.StageConsole;
-	import inutilib.fx.FxManager;
-	import inutilib.media.MusicPlayer;
-	import inutilib.statemachine.State;
-	import inutilib.statemachine.StateMachine;
-	import inutilib.ui.SplashScreen;
-	import inutilib.ui.WindowManager;
+	import de.inutilis.inutilib.ArrayUtils;
+	import de.inutilis.inutilib.GameKeys;
+	import de.inutilis.inutilib.GameTime;
+	import de.inutilis.inutilib.UserOptions;
+	import de.inutilis.inutilib.debug.StageConsole;
+	import de.inutilis.inutilib.fx.FxManager;
+	import de.inutilis.inutilib.media.MusicPlayer;
+	import de.inutilis.inutilib.statemachine.State;
+	import de.inutilis.inutilib.statemachine.StateMachine;
+	import de.inutilis.inutilib.ui.SplashScreen;
+	import de.inutilis.inutilib.ui.WindowManager;
 	
 	import mx.resources.ResourceManager;
 	

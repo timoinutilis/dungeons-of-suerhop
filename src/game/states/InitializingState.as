@@ -27,13 +27,13 @@ package game.states
 	import game.ui.PopupWindow;
 	import game.value.UserInfo;
 	
-	import inutilib.DisplayUtils;
-	import inutilib.media.SoundManager;
-	import inutilib.social.SocialUser;
-	import inutilib.social.SocialUserManager;
-	import inutilib.statemachine.State;
-	import inutilib.statemachine.StateMachine;
-	import inutilib.ui.SplashScreen;
+	import de.inutilis.inutilib.DisplayUtils;
+	import de.inutilis.inutilib.media.SoundManager;
+	import de.inutilis.inutilib.social.SocialUser;
+	import de.inutilis.inutilib.social.SocialUserManager;
+	import de.inutilis.inutilib.statemachine.State;
+	import de.inutilis.inutilib.statemachine.StateMachine;
+	import de.inutilis.inutilib.ui.SplashScreen;
 	
 	import mx.resources.ResourceManager;
 	

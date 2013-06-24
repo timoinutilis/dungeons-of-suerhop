@@ -10,10 +10,10 @@ package game.states
 	import game.MagicStone;
 	import game.ui.ShopWindow;
 	
-	import inutilib.media.SoundManager;
-	import inutilib.statemachine.State;
-	import inutilib.statemachine.StateMachine;
-	import inutilib.ui.WindowEvent;
+	import de.inutilis.inutilib.media.SoundManager;
+	import de.inutilis.inutilib.statemachine.State;
+	import de.inutilis.inutilib.statemachine.StateMachine;
+	import de.inutilis.inutilib.ui.WindowEvent;
 	
 	import mx.resources.ResourceManager;
 	

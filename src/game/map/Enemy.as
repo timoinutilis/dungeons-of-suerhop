@@ -9,7 +9,7 @@ package game.map
 	import game.constants.ObjectsDefs;
 	import game.constants.RawTilesDefs;
 	
-	import inutilib.DisplayUtils;
+	import de.inutilis.inutilib.DisplayUtils;
 
 	public class Enemy extends GameSprite
 	{

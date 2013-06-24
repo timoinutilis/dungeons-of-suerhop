@@ -6,8 +6,8 @@ package game.server
 	import game.MagicStone;
 	import game.value.Savegame;
 	
-	import inutilib.Base64;
-	import inutilib.MathUtils;
+	import de.inutilis.inutilib.Base64;
+	import de.inutilis.inutilib.MathUtils;
 
 	public class OnlineGameServer extends GameServer
 	{

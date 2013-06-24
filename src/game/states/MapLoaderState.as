@@ -16,10 +16,10 @@ package game.states
 	import game.value.MapStatus;
 	import game.value.Savegame;
 	
-	import inutilib.map.IDImagesLoader;
-	import inutilib.social.SocialUserManager;
-	import inutilib.statemachine.State;
-	import inutilib.statemachine.StateMachine;
+	import de.inutilis.inutilib.map.IDImagesLoader;
+	import de.inutilis.inutilib.social.SocialUserManager;
+	import de.inutilis.inutilib.statemachine.State;
+	import de.inutilis.inutilib.statemachine.StateMachine;
 	
 	import mx.resources.ResourceManager;
 	

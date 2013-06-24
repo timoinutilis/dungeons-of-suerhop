@@ -11,7 +11,7 @@ package game.map
 	import game.GameDefs;
 	import game.constants.RawTilesDefs;
 	
-	import inutilib.map.MapSprite;
+	import de.inutilis.inutilib.map.MapSprite;
 	
 	public class GameSprite extends MapSprite
 	{

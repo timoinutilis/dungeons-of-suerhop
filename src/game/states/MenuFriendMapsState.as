@@ -15,16 +15,16 @@ package game.states
 	import game.ui.PopupWindow;
 	import game.value.MapInfo;
 	
-	import inutilib.DisplayUtils;
-	import inutilib.media.SoundManager;
-	import inutilib.social.SocialUser;
-	import inutilib.social.SocialUserManager;
-	import inutilib.statemachine.State;
-	import inutilib.statemachine.StateMachine;
-	import inutilib.ui.PositionRectangle;
-	import inutilib.ui.ScrollList;
-	import inutilib.ui.SplashScreen;
-	import inutilib.ui.Window;
+	import de.inutilis.inutilib.DisplayUtils;
+	import de.inutilis.inutilib.media.SoundManager;
+	import de.inutilis.inutilib.social.SocialUser;
+	import de.inutilis.inutilib.social.SocialUserManager;
+	import de.inutilis.inutilib.statemachine.State;
+	import de.inutilis.inutilib.statemachine.StateMachine;
+	import de.inutilis.inutilib.ui.PositionRectangle;
+	import de.inutilis.inutilib.ui.ScrollList;
+	import de.inutilis.inutilib.ui.SplashScreen;
+	import de.inutilis.inutilib.ui.Window;
 	
 	import mx.resources.ResourceManager;
 	
@@ -169,8 +169,8 @@ import game.GameDefs;
 import game.states.MenuFriendMapsState;
 import game.states.MenuOwnMapsState;
 
-import inutilib.DisplayUtils;
-import inutilib.ui.ScrollListItem;
+import de.inutilis.inutilib.DisplayUtils;
+import de.inutilis.inutilib.ui.ScrollListItem;
 
 import mx.resources.ResourceManager;
 

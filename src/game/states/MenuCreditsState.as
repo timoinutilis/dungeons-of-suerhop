@@ -9,8 +9,8 @@ package game.states
 	import game.GameDefs;
 	import game.MagicStone;
 	
-	import inutilib.statemachine.State;
-	import inutilib.statemachine.StateMachine;
+	import de.inutilis.inutilib.statemachine.State;
+	import de.inutilis.inutilib.statemachine.StateMachine;
 	
 	public class MenuCreditsState extends State
 	{

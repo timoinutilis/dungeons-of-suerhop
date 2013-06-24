@@ -10,11 +10,11 @@ package game.ui
 	import game.value.MapInfo;
 	import game.value.MapStatus;
 	
-	import inutilib.DisplayUtils;
-	import inutilib.GameTime;
-	import inutilib.social.SocialUserManager;
-	import inutilib.ui.PositionRectangle;
-	import inutilib.ui.ScrollListItem;
+	import de.inutilis.inutilib.DisplayUtils;
+	import de.inutilis.inutilib.GameTime;
+	import de.inutilis.inutilib.social.SocialUserManager;
+	import de.inutilis.inutilib.ui.PositionRectangle;
+	import de.inutilis.inutilib.ui.ScrollListItem;
 	
 	import mx.resources.ResourceManager;
 	

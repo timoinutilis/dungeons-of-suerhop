@@ -9,11 +9,11 @@ package game.map
 	import game.constants.RawTilesDefs;
 	import game.constants.TilesDefs;
 	
-	import inutilib.GameTime;
-	import inutilib.map.MapData;
-	import inutilib.map.MapSprite;
-	import inutilib.map.ScrollTileMap;
-	import inutilib.map.TileMap;
+	import de.inutilis.inutilib.GameTime;
+	import de.inutilis.inutilib.map.MapData;
+	import de.inutilis.inutilib.map.MapSprite;
+	import de.inutilis.inutilib.map.ScrollTileMap;
+	import de.inutilis.inutilib.map.TileMap;
 	
 	public class GameMap extends Sprite
 	{

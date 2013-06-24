@@ -12,13 +12,13 @@ package game.states
 	import game.map.GameSprite;
 	import game.map.MainCharacter;
 	
-	import inutilib.GameTime;
-	import inutilib.MathUtils;
-	import inutilib.fx.FxManager;
-	import inutilib.fx.ScoreFx;
-	import inutilib.media.SoundManager;
-	import inutilib.statemachine.State;
-	import inutilib.statemachine.StateMachine;
+	import de.inutilis.inutilib.GameTime;
+	import de.inutilis.inutilib.MathUtils;
+	import de.inutilis.inutilib.fx.FxManager;
+	import de.inutilis.inutilib.fx.ScoreFx;
+	import de.inutilis.inutilib.media.SoundManager;
+	import de.inutilis.inutilib.statemachine.State;
+	import de.inutilis.inutilib.statemachine.StateMachine;
 	
 	public class FightState extends State
 	{

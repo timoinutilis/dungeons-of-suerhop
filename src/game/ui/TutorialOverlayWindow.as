@@ -7,10 +7,10 @@ package game.ui
 	import game.GameDefs;
 	import game.MagicStone;
 	
-	import inutilib.DisplayUtils;
-	import inutilib.GameTime;
-	import inutilib.ui.PositionRectangle;
-	import inutilib.ui.Window;
+	import de.inutilis.inutilib.DisplayUtils;
+	import de.inutilis.inutilib.GameTime;
+	import de.inutilis.inutilib.ui.PositionRectangle;
+	import de.inutilis.inutilib.ui.Window;
 	
 	public class TutorialOverlayWindow extends Window
 	{

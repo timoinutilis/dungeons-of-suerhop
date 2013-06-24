@@ -24,10 +24,10 @@ package game.states
 	import game.value.MapInfo;
 	import game.value.MapStatus;
 	
-	import inutilib.DisplayUtils;
-	import inutilib.social.SocialUserManager;
-	import inutilib.statemachine.State;
-	import inutilib.statemachine.StateMachine;
+	import de.inutilis.inutilib.DisplayUtils;
+	import de.inutilis.inutilib.social.SocialUserManager;
+	import de.inutilis.inutilib.statemachine.State;
+	import de.inutilis.inutilib.statemachine.StateMachine;
 	
 	import mx.resources.ResourceManager;
 	

@@ -6,7 +6,7 @@ package game
 	import game.server.answers.Answer;
 	import game.ui.PopupWindow;
 	
-	import inutilib.social.SocialUserManager;
+	import de.inutilis.inutilib.social.SocialUserManager;
 	
 	import mx.resources.ResourceManager;
 

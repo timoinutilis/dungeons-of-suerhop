@@ -8,10 +8,10 @@ package game.ui
 	import game.FileDefs;
 	import game.GameDefs;
 	
-	import inutilib.DisplayUtils;
-	import inutilib.ui.PositionRectangle;
-	import inutilib.ui.ProgressBar;
-	import inutilib.ui.Window;
+	import de.inutilis.inutilib.DisplayUtils;
+	import de.inutilis.inutilib.ui.PositionRectangle;
+	import de.inutilis.inutilib.ui.ProgressBar;
+	import de.inutilis.inutilib.ui.Window;
 	
 	public class InGameWindow extends Window
 	{

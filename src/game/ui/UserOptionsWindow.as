@@ -8,11 +8,11 @@ package game.ui
 	import game.GameDefs;
 	import game.MagicStone;
 	
-	import inutilib.media.MusicPlayer;
-	import inutilib.media.SoundManager;
-	import inutilib.ui.PositionRectangle;
-	import inutilib.ui.ToolTips;
-	import inutilib.ui.Window;
+	import de.inutilis.inutilib.media.MusicPlayer;
+	import de.inutilis.inutilib.media.SoundManager;
+	import de.inutilis.inutilib.ui.PositionRectangle;
+	import de.inutilis.inutilib.ui.ToolTips;
+	import de.inutilis.inutilib.ui.Window;
 	
 	import mx.resources.ResourceManager;
 	

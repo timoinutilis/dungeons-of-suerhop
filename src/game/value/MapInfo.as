@@ -1,6 +1,6 @@
 package game.value
 {
-	import inutilib.StringUtils;
+	import de.inutilis.inutilib.StringUtils;
 
 	public class MapInfo
 	{
