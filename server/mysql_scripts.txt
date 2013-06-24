@@ -1,0 +1,105 @@
+**************** LOGIN ****************
+
+mysql -uadmin_dungeons -p admin_dungeons
+
+**************** CREATE ****************
+
+CREATE TABLE users (
+user_id INT UNSIGNED AUTO_INCREMENT,
+num_played INT UNSIGNED,
+num_successes INT UNSIGNED,
+time INT UNSIGNED,
+total_score INT UNSIGNED,
+last_info INT UNSIGNED,
+register_date DATETIME,
+login_date DATETIME,
+source VARCHAR(20),
+CONSTRAINT pk_user PRIMARY KEY (user_id)
+);
+
+CREATE TABLE fb_users (
+fb_user_id BIGINT,
+user_id INT UNSIGNED,
+locale CHAR(8),
+CONSTRAINT pk_fb_user PRIMARY KEY (fb_user_id, user_id),
+CONSTRAINT fk_user_id FOREIGN KEY (user_id) REFERENCES users (user_id)
+);
+
+
+CREATE TABLE maps (
+map_id INT UNSIGNED AUTO_INCREMENT,
+user_id INT UNSIGNED, 
+name VARCHAR(20),
+unlock_level SMALLINT UNSIGNED,
+num_played INT UNSIGNED,
+num_successes INT UNSIGNED,
+time INT UNSIGNED,
+published BOOL,
+creation_date DATETIME,
+num_likes INT UNSIGNED,
+global BOOL,
+data TEXT,
+messages TEXT,
+CONSTRAINT pk_map PRIMARY KEY (map_id),
+CONSTRAINT fk_user_id FOREIGN KEY (user_id) REFERENCES users (user_id)
+);
+
+CREATE TABLE likes (
+user_id INT UNSIGNED,
+map_id INT UNSIGNED,
+count INT UNSIGNED,
+last_date TIMESTAMP,
+CONSTRAINT pk_like PRIMARY KEY (user_id, map_id),
+CONSTRAINT fk_user_id FOREIGN KEY (user_id) REFERENCES users (user_id),
+CONSTRAINT fk_map_id FOREIGN KEY (map_id) REFERENCES maps (map_id)
+);
+
+CREATE TABLE map_status (
+user_id INT UNSIGNED,
+map_id INT UNSIGNED,
+status TINYINT UNSIGNED,
+score INT UNSIGNED,
+CONSTRAINT pk_map_status PRIMARY KEY (user_id, map_id),
+CONSTRAINT fk_user_id FOREIGN KEY (user_id) REFERENCES users (user_id),
+CONSTRAINT fk_map_id FOREIGN KEY (map_id) REFERENCES maps (map_id)
+);
+
+CREATE TABLE top_maps (
+map_id INT UNSIGNED,
+CONSTRAINT fk_map_id FOREIGN KEY (map_id) REFERENCES maps (map_id)
+);
+
+CREATE TABLE savegames (
+user_id INT UNSIGNED, 
+map_id INT UNSIGNED,
+mc_column SMALLINT UNSIGNED,
+mc_row SMALLINT UNSIGNED,
+health TINYINT UNSIGNED,
+num_coins SMALLINT UNSIGNED,
+num_keys SMALLINT UNSIGNED,
+armor TINYINT UNSIGNED,
+shield TINYINT UNSIGNED,
+weapon TINYINT UNSIGNED,
+time INT UNSIGNED,
+score INT UNSIGNED,
+data_diff TEXT,
+CONSTRAINT fk_user_id FOREIGN KEY (user_id) REFERENCES users (user_id),
+CONSTRAINT fk_map_id FOREIGN KEY (map_id) REFERENCES maps (map_id),
+UNIQUE idx_user_id (user_id)
+);
+
+CREATE VIEW maps_view (map_id, user_id, name, unlock_level, num_played, num_successes, time, published, creation_date, num_likes, global)
+AS SELECT map_id, user_id, name, unlock_level, num_played, num_successes, time, published, creation_date, num_likes, global
+FROM maps;
+
+CREATE VIEW new_users_view (user_id, num_played, num_successes, time, total_score, last_info, register_date, login_date, source)
+AS SELECT user_id, num_played, num_successes, time, total_score, last_info, register_date, login_date, source
+FROM users WHERE register_date >= CURRENT_TIMESTAMP() - INTERVAL 1 WEEK;
+
+**************** MODIFY ****************
+
+INSERT INTO top_maps (map_id) SELECT map_id FROM maps WHERE published = TRUE AND num_likes > 0;
+
+INSERT INTO top_maps (map_id) VALUES (xxx);
+
+UPDATE maps SET global = TRUE WHERE map_id IN (SELECT map_id FROM top_maps);

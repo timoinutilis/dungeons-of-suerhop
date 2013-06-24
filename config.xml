@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<useFacebook>false</useFacebook>
+	<userId>1</userId>
+	<appId>253062221374776</appId>
+	<appUrl>http://apps.facebook.com/dungeonsofsuerhop/</appUrl>
+	<resPath>../res/</resPath>
+	<debugConsole>true</debugConsole>
+</config>

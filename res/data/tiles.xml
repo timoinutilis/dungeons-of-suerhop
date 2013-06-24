@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<images>
+	<image id="1">earth_1a.png</image>
+	<image id="2">earth_1b.png</image>
+	<image id="3">earth_2a.png</image>
+	<image id="4">earth_2b.png</image>
+	<image id="5">floor_1a.png</image>
+	<image id="6">floor_1b.png</image>
+	<image id="7">floor_2a.png</image>
+	<image id="8">floor_2b.png</image>
+	<image id="9">wall_corner_inner_1a.png</image>
+	<image id="10">wall_corner_inner_1b.png</image>
+	<image id="11">wall_corner_inner_2a.png</image>
+	<image id="12">wall_corner_inner_2b.png</image>
+	<image id="13">wall_corner_outer_1a.png</image>
+	<image id="14">wall_corner_outer_1b.png</image>
+	<image id="15">wall_corner_outer_2a.png</image>
+	<image id="16">wall_corner_outer_2b.png</image>
+	<image id="17">wall_h_1a.png</image>
+	<image id="18">wall_h_1b.png</image>
+	<image id="19">wall_h_2a.png</image>
+	<image id="20">wall_h_2b.png</image>
+	<image id="21">wall_v_1a.png</image>
+	<image id="22">wall_v_1b.png</image>
+	<image id="23">wall_v_2a.png</image>
+	<image id="24">wall_v_2b.png</image>
+	<image id="25">wall_v_top_1a.png</image>
+	<image id="26">wall_v_top_1b.png</image>
+	<image id="27">secret_1a.png</image>
+	<image id="28">secret_1b.png</image>
+	<image id="29">secret_2a.png</image>
+	<image id="30">secret_2b.png</image>
+</images>

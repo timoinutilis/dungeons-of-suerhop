@@ -1,0 +1,13 @@
+		<!div id="advert" class="banner">
+		Advertisement <button type="button" onclick="removeAdvert()" class="closebutton"><img src="close_button.png" /></button>
+		<!--- Cubics Ad Code START -->
+		<script type="text/javascript">
+		var pid = 409946;
+		var appId = 220107;
+		var plid = 15965;
+		var placement = 2464;
+		var adSize = "728x90";
+		</script>
+		<script language="javascript" type="text/javascript" src="//social.bidsystem.com/displayAd.js"></script>
+		<!--- Cubics Ad Code END -->
+		</div>

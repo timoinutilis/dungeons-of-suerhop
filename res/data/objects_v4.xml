@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<images>
+	<image id="1" symbol="MainCharacter">main_character_v2.swf</image>
+	<image id="2" symbol="DoorHorizontal">doors.swf</image>
+	<image id="3" symbol="DoorVertical">doors.swf</image>
+	<image id="4" symbol="Key">key.swf</image>
+	<image id="5" symbol="Treasure">treasure.swf</image>
+	<image id="6" symbol="MagicStone">magic_stone.swf</image>
+	<image id="7" symbol="ShopArmor">shops.swf</image>
+	<image id="8" symbol="ShopShield">shops.swf</image>
+	<image id="9" symbol="ShopWeapon">shops.swf</image>
+	<image id="10" symbol="Potion">potion.swf</image>
+	<image id="11" symbol="Enemy">enemy.swf</image>
+	<image id="12" symbol="DustAnim">game_fx.swf</image>
+	<image id="13" symbol="Gemstones">gemstones.swf</image>
+	<image id="14" symbol="DoorHorizontal">doors_colors.swf</image>
+	<image id="15" symbol="DoorVertical">doors_colors.swf</image>
+	<image id="16" symbol="DoorButton">door_button.swf</image>
+	<image id="17" symbol="Message">message.swf</image>
+	<image id="18" symbol="Cross">cross.swf</image>
+	<image id="19" symbol="BrokenFloor">broken_floor.swf</image>
+	<image id="20" symbol="BrokenFloor2">broken_floor_2.swf</image>
+</images>

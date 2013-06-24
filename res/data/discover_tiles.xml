@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<images>
+	<image id="1">discover_full.png</image>
+	<image id="2">discover_side_1.png</image>
+	<image id="3">discover_side_2.png</image>
+	<image id="4">discover_side_3.png</image>
+	<image id="5">discover_side_4.png</image>
+	<image id="6">discover_inner_1.png</image>
+	<image id="7">discover_inner_2.png</image>
+	<image id="8">discover_inner_3.png</image>
+	<image id="9">discover_inner_4.png</image>
+	<image id="10">discover_outer_1.png</image>
+	<image id="11">discover_outer_2.png</image>
+	<image id="12">discover_outer_3.png</image>
+	<image id="13">discover_outer_4.png</image>
+	<image id="14">discover_inner_5.png</image>
+	<image id="15">discover_inner_6.png</image>
+</images>

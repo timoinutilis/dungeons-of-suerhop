@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<useFacebook>false</useFacebook>
+	<userId></userId>
+	<appId></appId>
+	<appUrl></appUrl>
+	<resPath>http://inutilis.de/games/dungeons/res/</resPath>
+	<debugConsole>true</debugConsole>
+</config>
