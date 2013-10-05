@@ -53,7 +53,7 @@ if (isset($_GET["locale"])) {
 					
 			var flashVars = {
 				localeChain: "<?php echo $game_locale; ?>",
-				configUrl: "http://inutilis.de/games/dungeonsweb/config.xml",
+				configUrl: "http://apps.timokloss.com/dungeonsweb/config.xml",
 				mapId: "<?php echo $_GET['map_id']; ?>",
 			};
 
@@ -66,7 +66,7 @@ if (isset($_GET["locale"])) {
 				allowscriptaccess: "always"
 			};		
 
-			swfobject.embedSWF(<?php echo "\"http://inutilis.de/games/dungeons/bin/MagicStone_v{$game_version}.swf\""; ?>, "myContent", "760", "570", "10.0.0", "expressInstall.swf", flashVars, parObj, attributes);
+			swfobject.embedSWF(<?php echo "\"http://apps.timokloss.com/dungeons/bin/MagicStone_v{$game_version}.swf\""; ?>, "myContent", "760", "570", "10.0.0", "expressInstall.swf", flashVars, parObj, attributes);
 		
 		</script>
 <?php
@@ -75,12 +75,6 @@ if (isset($_GET["locale"])) {
 	</head>
 	<body>
 		<div style="width: 760px; margin:0px auto;">
-
-		<div style="height: 10px;"></div>
-		
-		<!-- maudau code begin -->
-		<iframe id="maudauIframe" scrolling="no" height="72" frameborder="0" width="758" marginheight="0" marginwidth="0" src="http://www.maudau.com/AdsBar/?appid=1154"></iframe>
-		<!-- maudau code end -->
 
 		<div style="height: 10px;"></div>
 		
@@ -108,7 +102,7 @@ if (isset($_GET["locale"])) {
 		<div style="margin:10px 0px 0px 0px; text-align: center;">
 			<a href="<?php echo $canvas_page . "?source=web"; ?>">Play on Facebook</a> <span>|</span>
 			<a href="http://www.inutilis.de" target="_blank">Inutilis Website</a> <span>|</span>
-			<a href="http://www.inutilis.de/games/dungeons/Privacy_Policy_DoS.pdf" target="_blank">Privacy</a>
+			<a href="http://apps.timokloss.com/dungeons/Privacy_Policy_DoS.pdf" target="_blank">Privacy</a>
 		</div>
 		
 		<div style="margin:10px 0px 0px 0px; text-align: center;">

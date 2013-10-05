@@ -9,9 +9,9 @@ package game
 		
 		public static const k_USE_ONLINE_SERVER:Boolean = true;
 		public static const k_OFFLINE_SERVER_DELAY:Number = 2000;
-		public static const k_ONLINE_SERVER_LOGIN_URL:String = "http://api.inutilis.de/dungeons/login.php";
-		public static const k_ONLINE_SERVER_REQUEST_URL:String = "http://api.inutilis.de/dungeons/request.php";
-		public static const k_ONLINE_SERVER_SEND_URL:String = "http://api.inutilis.de/dungeons/send.php";
+		public static const k_ONLINE_SERVER_LOGIN_URL:String = "http://apps.timokloss.com/dungeons/backend/login.php";
+		public static const k_ONLINE_SERVER_REQUEST_URL:String = "http://apps.timokloss.com/dungeons/backend/request.php";
+		public static const k_ONLINE_SERVER_SEND_URL:String = "http://apps.timokloss.com/dungeons/backend/send.php";
 		
 		public static const k_DEFAULT_LOCALE:String = "en_US";
 		public static const k_LOCALES:Array = ["en_US", "de_DE", "es_ES", "fr_FR"];

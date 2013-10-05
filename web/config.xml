@@ -4,6 +4,6 @@
 	<userId></userId>
 	<appId></appId>
 	<appUrl></appUrl>
-	<resPath>http://inutilis.de/games/dungeons/res/</resPath>
+	<resPath>http://apps.timokloss.com/dungeons/res/</resPath>
 	<debugConsole>true</debugConsole>
 </config>

@@ -1,15 +1,15 @@
 <?php
 
 $maintenance = FALSE;
-$game_version = "1.1";
+$game_version = "2.4";
 
 $app_id = "253062221374776";
 $canvas_page = "http://apps.facebook.com/dungeonsofsuerhop/";
 
-$mysql_host = "localhost";
-$mysql_user = "api_dungeons";
-$mysql_password = "inutilisgame";
-$mysql_database = "admin_dungeons";
+$mysql_host = "";
+$mysql_user = "";
+$mysql_password = "";
+$mysql_database = "";
 
 $topbar_text = "Discover mysterious labyrinths and create your own ones!";
 

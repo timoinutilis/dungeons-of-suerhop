@@ -85,10 +85,8 @@ if (empty($data["user_id"])) {
 	}
 	if (!$maintenance) {
 		$game_source = $_GET['source'];
-		if (!isset($game_source)) {
-			if (isset($_GET['ref'])) {
-				$game_source = $_GET['ref'];
-			} elseif (isset($_GET['fb_source'])) {
+		if (empty($game_source)) {
+			if (!empty($_GET['fb_source'])) {
 				$game_source = $_GET['fb_source'];
 			}
 		}
@@ -100,7 +98,7 @@ if (empty($data["user_id"])) {
 			var flashVars = {
 				localeChain: "<?php echo $game_locale; ?>",
 				fbUserId: "<?php echo $data['user_id']; ?>",
-				configUrl: "http://inutilis.de/games/dungeons/config.xml",
+				configUrl: "http://apps.timokloss.com/dungeons/config.xml",
 				mapId: "<?php echo $_GET['map_id']; ?>",
 				requestIds: "<?php echo $_GET['request_ids']; ?>",
 				source: "<?php echo $game_source; ?>"
@@ -115,7 +113,7 @@ if (empty($data["user_id"])) {
 				allowscriptaccess: "always"
 			};		
 
-			swfobject.embedSWF(<?php echo "\"//inutilis.de/games/dungeons/bin/MagicStone_v{$game_version}.swf\""; ?>, "myContent", "760", "570", "10.0.0", "expressInstall.swf", flashVars, parObj, attributes);
+			swfobject.embedSWF(<?php echo "\"//apps.timokloss.com/dungeons/bin/MagicStone_v{$game_version}.swf\""; ?>, "myContent", "760", "570", "10.0.0", "expressInstall.swf", flashVars, parObj, attributes);
 			
 		</script>
 <?php
@@ -132,13 +130,6 @@ if (empty($data["user_id"])) {
 	</head>
 	<body>
 		<div id="fb-root"></div>
-		
-		<div style="height: 10px;">
-		</div>
-
-		<!-- maudau code begin -->
-		<iframe id="maudauIframe" scrolling="no" height="72" frameborder="0" width="758" marginheight="0" marginwidth="0" src="http://www.maudau.com/AdsBar/?appid=1154"></iframe>
-		<!-- maudau code end -->
 
 		<div style="height: 10px;">
 		</div>
@@ -160,7 +151,7 @@ if (empty($data["user_id"])) {
 			echo "<div class=\"infobox\">" . $infobox . "</div>";
 		}
 ?>
-		<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fapps.facebook.com%2Fdungeonsofsuerhop%2F&amp;send=false&amp;layout=standard&amp;width=760&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=35&amp;appId=253062221374776" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:760px; height:35px;" allowTransparency="true"></iframe>
+		<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FDungeons-of-Suerhop%2F411676995534269&amp;send=false&amp;layout=standard&amp;width=760&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=35&amp;appId=253062221374776" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:760px; height:35px;" allowTransparency="true"></iframe>
 
 		<div id="myContent">
 			<h1>You need Flash player for this game.</h1>
@@ -168,9 +159,10 @@ if (empty($data["user_id"])) {
 		</div>
 		
 		<div style="margin:10px 0px 0px 0px; text-align: center;">
-			<a href="http://www.facebook.com/Inutilis" target="_blank">Inutilis on Facebook</a> <span>|</span>
+			<a href="//www.facebook.com/pages/Dungeons-of-Suerhop/411676995534269" target="_top">Community</a> <span>|</span>
+			<a href="//www.facebook.com/Inutilis" target="_top">Inutilis on Facebook</a> <span>|</span>
 			<a href="http://www.inutilis.de" target="_blank">Inutilis Website</a> <span>|</span>
-			<a href="http://www.inutilis.de/games/dungeons/Privacy_Policy_DoS.pdf" target="_blank">Privacy</a>
+			<a href="http://apps.timokloss.com/dungeons/Privacy_Policy_DoS.pdf" target="_blank">Privacy</a>
 		</div>
 		
 		<div style="margin:10px 0px 0px 0px; text-align: center;">
