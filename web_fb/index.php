@@ -160,8 +160,7 @@ if (empty($data["user_id"])) {
 		
 		<div style="margin:10px 0px 0px 0px; text-align: center;">
 			<a href="//www.facebook.com/pages/Dungeons-of-Suerhop/411676995534269" target="_top">Community</a> <span>|</span>
-			<a href="//www.facebook.com/Inutilis" target="_top">Inutilis on Facebook</a> <span>|</span>
-			<a href="http://www.inutilis.de" target="_blank">Inutilis Website</a> <span>|</span>
+			<a href="http://www.inutilis.com" target="_blank">Inutilis Website</a> <span>|</span>
 			<a href="http://apps.timokloss.com/dungeons/Privacy_Policy_DoS.pdf" target="_blank">Privacy</a>
 		</div>
 		
