@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<useFacebook>true</useFacebook>
+	<userId></userId>
+	<appId>253062221374776</appId>
+	<appUrl>http://apps.timokloss.com/dungeons/</appUrl>
+	<resPath>http://apps.timokloss.com/dungeons/res/</resPath>
+	<debugConsole>false</debugConsole>
+</config>

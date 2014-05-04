@@ -5,7 +5,7 @@ package game
 
 	public class GameDefs
 	{
-		public static const k_VERSION:String = "2.4 beta";
+		public static const k_VERSION:String = "2.4.1";
 		
 		public static const k_USE_ONLINE_SERVER:Boolean = true;
 		public static const k_OFFLINE_SERVER_DELAY:Number = 2000;
