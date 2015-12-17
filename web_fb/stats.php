@@ -36,41 +36,41 @@ else
 
 function getActiveUsers($connection, $numDays)
 {
-	$sqlResult = mysql_query("SELECT COUNT(*) FROM users WHERE login_date >= CURRENT_TIMESTAMP() - INTERVAL {$numDays} DAY", $connection);
+	$sqlResult = mysql_query("SELECT COUNT(*) FROM users WHERE login_date >= DATE_SUB(CURDATE(),INTERVAL {$numDays} DAY)", $connection);
 	$row = mysql_fetch_array($sqlResult);
 	return $row[0];
 }
 
 function getNewUsers($connection, $numDays)
 {
-	$sqlResult = mysql_query("SELECT COUNT(*) FROM users WHERE register_date >= CURRENT_TIMESTAMP() - INTERVAL {$numDays} DAY", $connection);
+	$sqlResult = mysql_query("SELECT COUNT(*) FROM users WHERE register_date >= DATE_SUB(CURDATE(),INTERVAL {$numDays} DAY)", $connection);
 	$row = mysql_fetch_array($sqlResult);
 	return $row[0];
 }
 
 function getUpdatedMaps($connection, $numDays)
 {
-	$sqlResult = mysql_query("SELECT COUNT(*) FROM maps WHERE creation_date >= CURRENT_TIMESTAMP() - INTERVAL {$numDays} DAY", $connection);
+	$sqlResult = mysql_query("SELECT COUNT(*) FROM maps WHERE creation_date >= DATE_SUB(CURDATE(),INTERVAL {$numDays} DAY)", $connection);
 	$row = mysql_fetch_array($sqlResult);
 	return $row[0];
 }
 
 function getPublishedMaps($connection, $numDays)
 {
-	$sqlResult = mysql_query("SELECT COUNT(*) FROM maps WHERE creation_date >= CURRENT_TIMESTAMP() - INTERVAL {$numDays} DAY AND published = TRUE", $connection);
+	$sqlResult = mysql_query("SELECT COUNT(*) FROM maps WHERE creation_date >= DATE_SUB(CURDATE(),INTERVAL {$numDays} DAY) AND published = TRUE", $connection);
 	$row = mysql_fetch_array($sqlResult);
 	return $row[0];
 }
 
 function showUsers($connection, $numDays)
 {
-	$sqlResult = mysql_query("SELECT user_id, num_played, num_successes, time, total_score, last_info, register_date, login_date, source FROM users WHERE login_date >= CURRENT_TIMESTAMP() - INTERVAL {$numDays} DAY ORDER BY register_date", $connection);
+	$sqlResult = mysql_query("SELECT user_id, num_played, num_successes, time, total_score, last_info, register_date, login_date, source FROM users WHERE login_date >= DATE_SUB(CURDATE(),INTERVAL {$numDays} DAY) ORDER BY register_date", $connection);
 	showTable($sqlResult, array("user_id", "num_played", "num_successes", "time", "total_score", "last_info", "register_date", "login_date", "source"));
 }
 
 function showMaps($connection, $numDays)
 {
-	$sqlResult = mysql_query("SELECT map_id, user_id, name, unlock_level, num_played, num_successes, time, published, creation_date, num_likes, global FROM maps WHERE creation_date >= CURRENT_TIMESTAMP() - INTERVAL {$numDays} DAY ORDER BY published, creation_date", $connection);
+	$sqlResult = mysql_query("SELECT map_id, user_id, name, unlock_level, num_played, num_successes, time, published, creation_date, num_likes, global FROM maps WHERE creation_date >= DATE_SUB(CURDATE(),INTERVAL {$numDays} DAY) ORDER BY published, creation_date", $connection);
 	showTable($sqlResult, array("map_id", "user_id", "name", "unlock_level", "num_played", "num_successes", "time", "published", "creation_date", "num_likes", "global"));
 }
 
